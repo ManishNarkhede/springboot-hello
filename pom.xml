@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.javaexpress.docker</groupId>
-	<artifactId>docker-springboot-hello</artifactId>
+	<artifactId>javaexpress-springboot-docker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>docker-springboot-hello</name>
+	<name>javaexpress-springboot-docker</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
