@@ -1,9 +1,9 @@
 FROM openjdk:8
 
-ADD target/docker-springboot-hello-0.0.1-SNAPSHOT.jar docker-springboot-hello-0.0.1-SNAPSHOT.jar
+ADD target/javaexpress-springboot-docker.jar javaexpress-springboot-docker.jar
 
 ADD src/main/resources/application.properties application.properties
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","docker-springboot-hello-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","javaexpress-springboot-docker.jar"]
