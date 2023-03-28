@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: spring-test-app 
-          image: manishnarkhede/manishn-aws-springboot-dp:latest  #spring-boot-test  Image that will be used to containers in the cluster
+          image: manishn-aws-springboot-dp:latest  #spring-boot-test  Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
