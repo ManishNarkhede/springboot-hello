@@ -11,6 +11,6 @@ public class DockerHelloWorld {
 	@GetMapping
 	public String getName() {
 		
-		return "Welcome manish narkhede"
+		return "Welcome manish narkhede";
 	}
 }
